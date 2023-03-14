@@ -1,0 +1,27 @@
+.header-area .main-nav .nav .has-child .sub-nav{
+    position: absolute;
+    display: none;
+    width: 150px;
+    text-align: left;
+    background-color: #1f2122;
+    padding:-7.5px 0px;
+  }
+  .header-area .main-nav .nav .sub-nav .sub-nav {
+    display: none;
+    width: 150px;
+    left:150px;
+    margin-top: -47px;
+  }
+  .header-area .main-nav .nav .sub-nav .sub-nav a{
+    background-color: #1f2122;
+    border-radius: 20px;
+  }
+  .header-area .main-nav .nav .has-child:hover >.sub-nav {
+    position: absolute;
+    display: block;
+  }
+  /* .header-area .main-nav .nav li {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+  } */
